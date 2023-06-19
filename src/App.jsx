@@ -1,12 +1,12 @@
 import './App.css'
-import Notifications from './Notifications'
+import Notifications from './Pages/Notifications/Notifications'
+import SeoPage from './Pages/SeoPage/SeoPage'
 
 function App() {
-
-
   return (
     <>
-     <Notifications />
+     {/* <Notifications /> */}
+     <SeoPage />
     </>
   )
 }

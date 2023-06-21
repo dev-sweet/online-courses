@@ -1,12 +1,12 @@
 import SeoBanner from "./SeoBanner"
 import { SeoDetails } from "./SeoDetails"
-import CourseCurriculam from './CourseCurriculam'
+import CourseCurriculum from './CourseCurriculum'
 const SeoPage = () =>{
     return (
         <>
         <SeoBanner />
         <SeoDetails />
-        <CourseCurriculam />
+        <CourseCurriculum />
         </>
     )
     

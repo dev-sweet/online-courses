@@ -9,7 +9,11 @@ import next from '../../assets/next-js.webp'
 import i1 from '../../assets/1.png'
 import i2 from '../../assets/2.png'
 import i3 from '../../assets/2.png'
+import s1 from '../../assets/s1.png'
+import s2 from '../../assets/s2.png'
+import s3 from '../../assets/s3.png'
 import { GiCheckMark} from 'react-icons/gi'
+
 const WebDevelopment = () => {
   return (
     <div className=''>
@@ -69,6 +73,48 @@ const WebDevelopment = () => {
                 <img src={i3} alt="" />
                 <h3 className='text-2xl font-bold'>Postgraduate</h3>
                 <p>Lorem ipsum dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='bg-gray-100 p-16 border-1 border-red-500 mt-5'>
+        <div className="lg:grid grid-cols-3 gap-10  text-[#083344]">
+          <div className='col-span-2'>
+            <p className='text-xl font-semibold'>Funfact</p>
+            <h2 className='text-4xl font-bold mt-3 mb-6'>Strength in Numbers</h2>
+            <p className='font-semibold'>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy</p>
+            <div className="flex items-center justify-center mt-8 w-[250px] py-5 px-5 bg-[#02812a] text-white rounded">
+              <h3 className='font-bold text-3xl'>2.4k+</h3>
+              <span className='font-semibold leading-5'>Successful <br /> students</span>
+            </div>
+          </div>
+          <div className='col-span-1 mt-5 lg:mt-0'>
+            <div className='flex items-center bg-white px-5 py-5 rounded-lg'>
+              <div className="bg-[#00ff50] p-2 rounded">
+               <img className='w-[50px]' src={s1} alt="" />
+              </div>
+              <div className='ps-5 text-[#083344]'>
+                <h3 className='text-2xl font-bold'>1200+</h3>
+                <p className='font-semibold'>Learners & counting</p>
+              </div>
+            </div>
+            <div className='flex items-center bg-white px-5 py-5 rounded-lg my-5'>
+              <div className="bg-[#00ff50] p-2 rounded">
+               <img className='w-[50px]' src={s1} alt="" />
+              </div>
+              <div className='ps-5 text-[#083344]'>
+                <h3 className='text-2xl font-bold'>1200+</h3>
+                <p className='font-semibold'>Learners & counting</p>
+              </div>
+            </div>
+            <div className='flex items-center bg-white px-5 py-5 rounded-lg'>
+              <div className="bg-[#00ff50] p-2 rounded">
+               <img className='w-[50px]' src={s1} alt="" />
+              </div>
+              <div className='ps-5 text-[#083344]'>
+                <h3 className='text-2xl font-bold'>1200+</h3>
+                <p className='font-semibold'>Learners & counting</p>
               </div>
             </div>
           </div>
